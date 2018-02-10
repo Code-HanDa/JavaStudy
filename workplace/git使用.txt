@@ -39,4 +39,5 @@ https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c
     git reset --hard HEAD^ 回退到上一版本 
 	git reset --hard HEAD~100 回退到之前100版本
 	git reset --hard 版本号 可以到制定版本
-	cjskfdjsaklfjdsa随便来点。然后提交，再恢复
+
+13  git历史命令日志 git reflog  可以获得版本号
