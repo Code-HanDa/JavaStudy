@@ -54,3 +54,9 @@ https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c
 18 做了添加的 add 命令 可以进行撤销 
    添加的是啥东西，可以直接进行 add 取消操作
    git checkout -- git使用.txt
+
+19 本地文件删除   git 也要做删除操作    
+   git rm tjscwj.txt
+   git commit -m "删除tjscwj文件"
+   
+   如果删除错了，那就没提交前 git checkout -- test.txt 取消(这个试验没成功，我都已经把文件删除了，还能恢复么？)
