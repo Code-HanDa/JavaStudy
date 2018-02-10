@@ -2,22 +2,32 @@ https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c
 67b8067c8c017b000/0013743256916071d599b3aed534aaab22a0db6c4e07fd0000
 
 --------------------------------------------------
-1 设置 用户名也就是提交人: git config --global user.name "Kilon" 
-2 设置 邮箱  表示提交人的: git config --global user.email "331734234@qq.com"
+1  git config --global user.name "Kilon"  ------------------设置 用户名也就是提交人
+2  git config --global user.email "331734234@qq.com" -------设置 邮箱  表示提交人的
 
-以上是设置git的用户信息
+以上是配置git的用户信息
 --------------------------------------------------
 
-3 创建git的版本库  设置一个空的版本库 在一个位置(尽量不要有中文) 创建一个空文件夹
-4 这里创建的是 : git_repository
-5 进入到文件夹 : cd D:\everyday\git_repository
-6 确认路径     : pwd （git支持linux命令）
-
-7 确认路径后   : git init  (使用 git init 初始化 版本库)
+3  创建git的版本库  设置一个空的版本库 在一个位置(尽量不要有中文) 创建一个空文件夹
+4  git_repository -------------------------这里创建的是 :
+5  cd D:\everyday\git_repository ----------进入到文件夹 :
+6  pwd （git支持linux命令）----------------确认路径     :
+7  git init  (使用 git init 初始化 版本库)-确认路径后   : 
 
 ----------------------------------------------------------------------------------------------------
-8 尽量用类似Notepad++工具编写文档 设置--首选项--新建 根据自己的系统选择编码要使用UTF-8无bom
+8  尽量用类似Notepad++工具编写文档 设置--首选项--新建 根据自己的系统选择编码要使用UTF-8无bom
 
-新建一个文档后放到 git 的数据仓内(上文新建的那个空文件夹下 或者其 子目录下)。
+   新建一个文档后放到 git 的数据仓内(上文新建的那个空文件夹下 或者其 子目录下workplace)。
 
-9 添加文件到 git :  git add git使用.txt
+9  添加文件到  git :  git add git使用.txt
+ 
+10 提交 文件到 git (添加后是需要提交的 两步:添加 提交)
+   git commit -m "添加一个 git使用.txt 文件"  --------------提交文件 + 文件提交说明
+   
+   （可以一次添加多个文件，只提交一次
+   $ git add file1.txt
+   $ git add file2.txt file3.txt
+   $ git commit -m "add 3 files."
+   ）
+
+11  
