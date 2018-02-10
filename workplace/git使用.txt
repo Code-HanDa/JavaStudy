@@ -21,7 +21,7 @@ https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c
 
 9  添加文件到  git :  git add git使用.txt
  
-10 提交 文件到 git (添加后是需要提交的 两步:添加 提交)
+10 提交 文件到 git (添加后是需要提交的 两步:添加 提交  注意:每次提交 都需要add)
    git commit -m "添加一个 git使用.txt 文件"  --------------提交文件 + 文件提交说明
    
    （可以一次添加多个文件，只提交一次
@@ -30,4 +30,13 @@ https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c
    $ git commit -m "add 3 files."
    ）
 
-11  
+11  使用 git log 查看提交版本日志
+    $git log  或者
+	$git log --pretty=oneline
+
+	
+12  在 git 中 用HEAD表示当前的版本，
+    git reset --hard HEAD^ 回退到上一版本 
+	git reset --hard HEAD~100 回退到之前100版本
+	git reset --hard 版本号 可以到制定版本
+	
