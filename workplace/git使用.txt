@@ -41,3 +41,8 @@ https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c
 	git reset --hard 版本号 可以到制定版本
 
 13  git历史命令日志 git reflog  可以获得版本号
+
+14  git add *  ------------------------添加当前文件夹下的所有文件
+    git commit -m "提交文本说明"   ----提交
+	
+15
