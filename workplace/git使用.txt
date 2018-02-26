@@ -96,7 +96,7 @@ https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c
        Kilon@Kilon-PC MINGW64 /d/everyday/git_repository/workplace (master)
        $ git push -u yuanck master
        Username for 'https://github.com': kilon  这里提示输入用户名  IamKilon
-       remote: Invalid username or password. 这里提示输入密码        123456a
+       remote: Invalid username or password. 这里提示输入密码        aa123456aa
        fatal: Authentication failed for 'https://github.com/IamKilon/JavaStudy.git/'  输入错了就这样
 
 22  克隆远程库(一般是是远程库 也就是 git 网站上创建远程库，然后克隆到本地)
